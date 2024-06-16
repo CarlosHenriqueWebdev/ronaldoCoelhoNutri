@@ -1,5 +1,5 @@
 {
-    "links": [
+    "generalLinks": [
     {
         "name": "Home",
         "href": "/"
@@ -11,23 +11,7 @@
     {
         "name": "Serviços",
         "href": "/servicos",
-        "submenu": [
-        {
-            "name": "Consultoria nutricional personalizada",
-            "href": "/servicos/consultoria-nutricional"
-        },
-        {
-            "name": "Programas de reeducação alimentar",
-            "href": "/servicos/programas-de-reeducao"
-        },
-        {
-            "name": "Workshops e palestras sobre nutrição e saúde",
-            "href": "/servicos/workshops-e-palestras"
-        },
-        {
-            "name": "Planos de dieta e acompanhamento nutricional",
-            "href": "/servicos/plano-de-dieta"
-        }]
+        "submenu": []
     },
     {
         "name": "Recursos",
@@ -36,10 +20,6 @@
         {
             "name": "Videos e Tutoriais",
             "href": "/recursos/videos"
-        },
-        {
-            "name": "Blogs e Artigos",
-            "href": "/recursos/blogs"
         }]
     },
     {
@@ -50,7 +30,7 @@
         "name": "Contato",
         "href": "/contato"
     }],
-    "hero": [
+    "homeHero": [
     {
         "subtitle": "Seja Bem-vindo",
         "title": "Descubra um Novo Mundo",
@@ -66,7 +46,7 @@
         "description": "Descubra os segredos da natureza.",
         "button": "Explorar",
         "button-url": "/servicos",
-        "backgroundImage": "img8.jpg",
+        "backgroundImage": "img2.jpg",
         "button-type": "secondary"
     },
     {
@@ -75,11 +55,12 @@
         "description": "Siga seu coração e descubra novos horizontes.",
         "button": "Começar Jornada",
         "button-url": "/contato",
-        "backgroundImage": "img1.jpg",
+        "backgroundImage": "img3.jpg",
         "button-type": "primary"
     }],
-    "introductionSection":
+    "homeIntroduction":
     {
+        "image": "img4.jpg",
         "titleSection":
         {
             "subtitle": "Healthy",
@@ -91,7 +72,8 @@
             "No meu site, você encontrará informações sobre como adotar hábitos alimentares saudáveis que podem transformar sua vida."
         ]
     },
-     "aboutSection": {
+    "homeAbout":
+    {
         "backgroundImage": "img5.jpg",
         "sectionTitle": "Alimente Seu Corpo e Mente",
         "sectionDescription": "Nutrir o corpo e a mente é essencial para alcançar um estado de bem-estar completo. Uma alimentação adequada não é necessária mente uma alimentação restrita de alimentos que você goste, incluir alimentos que você goste influencia diretamente a saúde mental, melhorando o humor e a função cognitiva.",
@@ -102,7 +84,7 @@
         "buttonUrl": "/sobre",
         "buttonText": "Sobre nós"
     },
-    "testimonials": [
+    "homeTestimonials": [
     {
         "description": "A consulta com Ronaldo Coelho mudou minha vida. Suas orientações nutricionais foram essenciais para que eu conseguisse perder peso de maneira saudável e sustentável.",
         "name": "– Maria S."
@@ -123,65 +105,12 @@
         "description": "O Ronaldo é um profissional excepcional. Sua abordagem prática e conhecimento profundo me ajudaram a alcançar minhas metas de saúde de maneira eficaz.",
         "name": "– Beatriz L."
     }],
-    "servicesTitle": {
+    "homeServicesTitle":
+    {
         "subtitle": "Services",
         "title": "Meus serviços"
     },
-    "services": [
-        {
-            "image": "img10.jpg",
-            "subtitle": "Consult",
-            "title": "Planos de Dieta e Acompanhamento Nutricional",
-            "description": "Desenvolvo planos de dieta personalizados que levam em consideração suas preferências alimentares, estilo de vida e objetivos de saúde. O acompanhamento nutricional contínuo é uma parte essencial do meu serviço, garantindo que você siga no caminho certo e fazendo os ajustes conforme necessário. Com um plano de dieta adequado e suporte contínuo que leva em consideração fatores culturais, psicológicos, socioambientais, socioeconômicos e outros, assim você pode alcançar e manter seus objetivos de saúde e bem-estar de maneira sustentável e eficaz.",
-            "pros": [
-                "Plano alimentar personalizado",
-                "Avaliação completa da saúde e hábitos alimentares",
-                "Acompanhamento contínuo para ajustes necessários",
-                "Suporte individualizado para alcançar seus objetivos de saúde"
-            ],
-            "url": "/servicos/plano-de-dieta"
-        },
-        {
-            "image": "img13.jpg",
-            "subtitle": "Workshop",
-            "title": "Workshops e Palestras sobre Nutrição e Saúde",
-            "description": "Oferecemos workshops e palestras dinâmicas sobre diversos temas de nutrição e saúde. Essas sessões educativas são projetadas para aumentar o conhecimento e inspirar mudanças positivas nos hábitos alimentares.",
-            "pros": [
-                "Informações baseadas em evidências científicas",
-                "Interação com outros participantes e troca de experiências",
-                "Materiais educativos e receitas saudáveis",
-                "Ambientes dinâmicos e motivadores"
-            ],
-            "url": "/servicos/workshops-palestras"
-        },
-        {
-            "image": "img12.jpg",
-            "subtitle": "Programs",
-            "title": "Programas de Reeducação Alimentar",
-            "description": "Nossos programas de reeducação alimentar visam transformar seus hábitos alimentares de forma sustentável e saudável. Ensinamos a escolher e preparar alimentos de maneira consciente, promovendo mudanças duradouras no estilo de vida.",
-            "pros": [
-                "Mudança de hábitos alimentares a longo prazo",
-                "Aprendizado sobre escolhas alimentares saudáveis",
-                "Suporte e motivação contínuos",
-                "Melhoria na qualidade de vida e bem-estar"
-            ],
-            "url": "/servicos/reeducacao-alimentar"
-        },
-        {
-            "image": "img11.jpg",
-            "subtitle": "Consult",
-            "title": "Consultoria Nutricional Personalizada",
-            "description": "Na consultoria nutricional personalizada, oferecemos orientações detalhadas e específicas para suas necessidades e objetivos individuais. Avaliamos seu estado de saúde, hábitos alimentares e estilo de vida para criar um plano nutricional único.",
-            "pros": [
-                "Plano alimentar adaptado às suas necessidades",
-                "Avaliação completa de saúde e hábitos alimentares",
-                "Orientação contínua e personalizada",
-                "Suporte individualizado para alcançar seus objetivos"
-            ],
-            "url": "/servicos/consultoria-nutricional"
-        }
-    ],
-    "socials": [
+    "homeSocials": [
     {
         "name": "Instagram",
         "href": "https://www.instagram.com/",
@@ -197,48 +126,512 @@
         "href": "https://www.instagram.com/",
         "icon": "social3.svg"
     }],
-    "footerCTA": {
-      "button": "Agende Sua Consulta",
-      "url": "/contato",
-      "title": "Entre em contato",
-      "description": "Pronto para transformar sua saúde através da nutrição? Entre em contato hoje e agende uma consulta. Juntos, podemos criar um plano personalizado que atenda às suas necessidades e objetivos. Estou aqui para ajudar você a alcançar o melhor de si!"
+    "aboutIntroduction":
+    {
+        "image": "img21.jpg",
+        "mainSubtitle": "About",
+        "mainTitle": "Sobre nossa empresa",        
+        "titleSection":
+        {
+            "subtitle": "Promise",
+            "title": "Compromisso com a Saúde"
+        },
+        "textSection": [
+            "Nossa missão é promover a saúde e o bem-estar através de uma alimentação equilibrada e hábitos de vida saudáveis. Com anos de experiência na área de nutrição, estamos comprometidos em oferecer suporte personalizado e baseado em evidências científicas para cada um de nossos clientes.",
+            "Acreditamos que cada indivíduo é único e, por isso, desenvolvemos planos alimentares adaptados às necessidades e objetivos específicos de cada pessoa. Nossa abordagem holística considera não apenas a alimentação, mas também fatores como estilo de vida, preferências pessoais e condições de saúde.",
+            "Nosso objetivo é capacitar você com o conhecimento e as ferramentas necessárias para fazer escolhas alimentares informadas e sustentáveis. Juntos, podemos transformar sua relação com a comida e ajudar você a alcançar uma vida mais saudável e equilibrada."
+        ]
     },
-    "footerAbout": {
-      "title": "Sobre",
-      "description": "Somos uma equipe de nutricionistas dedicados a promover a saúde e o bem-estar através da nutrição."
+    "aboutHistoryMissionAndVision": [
+    {
+        "image": "img23.jpg",
+        "title": "História da empresa",
+        "description": "Nossa jornada começou com a paixão pela nutrição e o desejo de fazer a diferença na vida das pessoas. Desde o início, temos nos dedicado a estudar e aplicar os princípios da alimentação saudável para promover mudanças positivas. Ao longo dos anos, construímos uma reputação baseada em confiança, conhecimento e resultados comprovados. Cada passo dado foi guiado pela vontade de ajudar nossos clientes a alcançar o melhor de si através de escolhas alimentares conscientes."
     },
-    "contactInfo": [
+    {
+        "image": "img22.jpg",
+        "title": "Nossa Missão",
+        "description": "Nossa missão é capacitar indivíduos a transformar suas vidas através de uma nutrição equilibrada e saudável. Estamos comprometidos em fornecer orientação personalizada e suporte contínuo, ajudando nossos clientes a tomar decisões informadas sobre sua alimentação. Acreditamos que a educação nutricional é a chave para promover hábitos alimentares duradouros e melhorar a qualidade de vida."
+    },
+    {
+        "image": "img24.jpg",
+        "title": "Nossa Visão",
+        "description": "Nossa visão é ser reconhecidos como referência em nutrição e saúde, impactando positivamente a vida de milhares de pessoas. Aspiramos criar uma comunidade consciente sobre a importância da alimentação saudável e do bem-estar. Nosso objetivo é continuar evoluindo e inovando, oferecendo serviços de alta qualidade que atendam às necessidades de cada cliente, sempre com base nas mais recentes evidências científicas."
+    }],
+    "aboutValues": {
+        "subtitle": "Values",
+        "title": "Nossos Valores",
+       "valuesList": [
+    {
+        "image": "img17.jpg",
+        "title": "Saúde e Bem-Estar",
+        "description": "Promovemos a saúde e o bem-estar através de uma alimentação balanceada e hábitos saudáveis, ajudando você a viver melhor e com mais disposição."
+    },
+    {
+        "image": "img8.jpg",
+        "title": "Personalização",
+        "description": "Cada pessoa é única. Criamos planos nutricionais personalizados para atender às suas necessidades específicas e objetivos individuais."
+    },
+    {
+        "image": "img16.jpg",
+        "title": "Educação Nutricional",
+        "description": "Acreditamos no poder do conhecimento. Fornecemos ferramentas e informações para que você possa fazer escolhas alimentares informadas e sustentáveis."
+    }]
+    },
+    "aboutMeetOurTeam": [
+    {
+        "image": "person1.jpg",
+        "name": "Alice Johnson",
+        "role": "CEO",
+        "socialLink": "https://www.linkedin.com/in/alicejohnson"
+    },
+    {
+        "image": "person2.jpg",
+        "name": "Michael Brown",
+        "role": "Chief Financial Officer",
+        "socialLink": "https://www.linkedin.com/in/michaelbrown"
+    },
+    {
+        "image": "person3.jpg",
+        "name": "Samantha Lee",
+        "role": "Chief Marketing Officer",
+        "socialLink": "https://www.linkedin.com/in/samanthalee"
+    },
+    {
+        "image": "person2.jpg",
+        "name": "David Smith",
+        "role": "Chief Operations Officer",
+        "socialLink": "https://www.linkedin.com/in/davidsmith"
+    },
+    {
+        "image": "person3.jpg",
+        "name": "Jessica Turner",
+        "role": "Head of Product Development",
+        "socialLink": "https://www.linkedin.com/in/jessicaturner"
+    },
+    {
+        "image": "person1.jpg",
+        "name": "Robert Davis",
+        "role": "Chief Technology Officer",
+        "socialLink": "https://www.linkedin.com/in/robertdavis"
+    }],
+    "aboutMessage": {
+        "title": "Mensagem do Fundador",
+        "description": "Bem-vindo! Sou apaixonado por nutrição e acredito no poder transformador de uma alimentação equilibrada. Minha missão é ajudar você a alcançar seus objetivos de saúde e bem-estar através de orientações personalizadas e suporte contínuo. Juntos, podemos fazer escolhas alimentares que promovam uma vida mais saudável e feliz. Obrigado por confiar em nós para fazer parte dessa jornada."
+    },    
+    "videos": {
+        "subtitle": "Videos",
+        "title": "Videos e Tutoriais",
+        "videosList": [
+      {
+        "title": "Introdução à Nutrição",
+        "lengthAndDate": "10 Minutos / Janeiro 10, 2024",
+        "videoEmbeddedURL": "https://www.youtube.com/embed/WiJrGkjdG2U"
+      },
+      {
+        "title": "Receitas Saudáveis para o Café da Manhã",
+        "lengthAndDate": "12 Minutos / Fevereiro 14, 2024",
+        "videoEmbeddedURL": "https://www.youtube.com/embed/BM4NxhFvnQQ"
+      },
+      {
+        "title": "Planejamento de Refeições para a Semana",
+        "lengthAndDate": "15 Minutos / Março 22, 2024",
+        "videoEmbeddedURL": "https://www.youtube.com/embed/X0EAAvLbTbU"
+      },
+      {
+        "title": "Importância da Hidratação",
+        "lengthAndDate": "8 Minutos / Abril 5, 2024",
+        "videoEmbeddedURL": "https://www.youtube.com/embed/5nHOOoQtRNw"
+      },
+      {
+        "title": "Nutrição e Exercício Físico",
+        "lengthAndDate": "20 Minutos / Maio 3, 2024",
+        "videoEmbeddedURL": "https://www.youtube.com/embed/ax8Bz6p0jow"
+      },
+      {
+        "title": "Dicas para Comer Fora de Casa",
+        "lengthAndDate": "14 Minutos / Junho 12, 2024",
+        "videoEmbeddedURL": "https://www.youtube.com/embed/8QrQMti0DMU"
+      }
+    ]
+    },
+    "generalServices": [
+    {
+        "image": "img10.jpg",
+        "landscapeImage": "img14.jpg",
+        "subtitle": "Consult",
+        "title": "Planos de Dieta e Acompanhamento Nutricional",
+        "description": "Desenvolvo planos de dieta personalizados que levam em consideração suas preferências alimentares, estilo de vida e objetivos de saúde. O acompanhamento nutricional contínuo é uma parte essencial do meu serviço, garantindo que você siga no caminho certo e fazendo os ajustes conforme necessário. Com um plano de dieta adequado e suporte contínuo que leva em consideração fatores culturais, psicológicos, socioambientais, socioeconômicos e outros, assim você pode alcançar e manter seus objetivos de saúde e bem-estar de maneira sustentável e eficaz.",
+        "pros": [
+            "Plano alimentar personalizado",
+            "Avaliação completa da saúde e hábitos alimentares",
+            "Acompanhamento contínuo para ajustes necessários",
+            "Suporte individualizado para alcançar seus objetivos de saúde"
+        ],
+        "slug": "plano-de-dieta",
+        "sections": [
         {
-            "name": "Email",
-            "icon": "vector5.svg",
-            "href": "mailto:example@example.com"
+            "type": "title",
+            "title": "Planos de Dieta Personalizados"
         },
         {
-            "name": "Telefone",
-            "icon": "vector4.svg",
-            "href": "tel:+123456789"
+            "type": "text",
+            "content": "Desenvolvo planos de dieta personalizados que levam em consideração suas preferências alimentares, estilo de vida e objetivos de saúde."
         },
         {
-            "name": "Endereço",
-            "icon": "vector3.svg",
-            "href": "https://maps.google.com"
-        }
+            "type": "list",
+            "items": [
+                "Plano alimentar personalizado",
+                "Avaliação completa da saúde e hábitos alimentares",
+                "Acompanhamento contínuo para ajustes necessários",
+                "Suporte individualizado para alcançar seus objetivos de saúde"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "O acompanhamento nutricional contínuo é uma parte essencial do meu serviço, garantindo que você siga no caminho certo e fazendo os ajustes conforme necessário."
+        },
+        {
+            "type": "image",
+            "src": "img26.jpg",
+            "alt": "Planos de Dieta"
+        },
+        {
+            "type": "title",
+            "title": "Benefícios do Acompanhamento Nutricional"
+        },
+        {
+            "type": "text",
+            "content": "Com um plano de dieta adequado e suporte contínuo que leva em consideração fatores culturais, psicológicos, socioambientais, socioeconômicos e outros, você pode alcançar e manter seus objetivos de saúde e bem-estar de maneira sustentável e eficaz."
+        },
+        {
+            "type": "image",
+            "src": "img28.jpg",
+            "alt": "Acompanhamento Nutricional"
+        }],
+        "faq": [
+        {
+            "question": "Quanto tempo dura cada consulta?",
+            "answer": "Cada consulta dura aproximadamente 60 minutos, tempo suficiente para fazermos uma avaliação detalhada e ajustarmos o plano conforme necessário."
+        },
+        {
+            "question": "Qual é a frequência do acompanhamento?",
+            "answer": "A frequência do acompanhamento pode variar conforme a necessidade individual de cada cliente, mas geralmente é realizada mensalmente."
+        }]
+    },
+    {
+        "image": "img13.jpg",
+        "landscapeImage": "img29.jpg",
+        "subtitle": "Workshop",
+        "title": "Workshops e Palestras sobre Nutrição e Saúde",
+        "description": "Oferecemos workshops e palestras dinâmicas sobre diversos temas de nutrição e saúde. Essas sessões educativas são projetadas para aumentar o conhecimento e inspirar mudanças positivas nos hábitos alimentares.",
+        "pros": [
+            "Informações baseadas em evidências científicas",
+            "Interação com outros participantes e troca de experiências",
+            "Materiais educativos e receitas saudáveis",
+            "Ambientes dinâmicos e motivadores"
+        ],
+        "slug": "workshops-palestras",
+        "sections": [
+        {
+            "type": "title",
+            "title": "Workshops e Palestras"
+        },
+        {
+            "type": "image",
+            "src": "img27.jpg",
+            "alt": "Workshops e Palestras"
+        },
+        {
+            "type": "text",
+            "content": "Oferecemos workshops e palestras dinâmicas sobre diversos temas de nutrição e saúde. Essas sessões educativas são projetadas para aumentar o conhecimento e inspirar mudanças positivas nos hábitos alimentares."
+        },
+        {
+            "type": "list",
+            "items": [
+                "Informações baseadas em evidências científicas",
+                "Interação com outros participantes e troca de experiências",
+                "Materiais educativos e receitas saudáveis",
+                "Ambientes dinâmicos e motivadores"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Essas sessões educativas são projetadas para aumentar o conhecimento e inspirar mudanças positivas nos hábitos alimentares."
+        },
+        {
+            "type": "title",
+            "title": "Temas Abordados nos Workshops"
+        },
+        {
+            "type": "text",
+            "content": "Abordamos diversos temas como alimentação consciente, planejamento de refeições, leitura de rótulos, e muito mais."
+        },
+        {
+            "type": "image",
+            "src": "img25.jpg",
+            "alt": "Sessões Educativas"
+        }],
+        "faq": [
+        {
+            "question": "Quanto tempo dura cada workshop?",
+            "answer": "Cada workshop tem a duração de aproximadamente 2 horas, permitindo tempo suficiente para uma abordagem detalhada do tema."
+        },
+        {
+            "question": "Os workshops são pagos?",
+            "answer": "Sim, há uma taxa para participação nos workshops, que varia conforme o tema e a duração."
+        }]
+    },
+    {
+        "image": "img12.jpg",
+        "landscapeImage": "img4.jpg",
+        "subtitle": "Programs",
+        "title": "Programas de Reeducação Alimentar",
+        "description": "Nossos programas de reeducação alimentar visam transformar seus hábitos alimentares de forma sustentável e saudável. Ensinamos a escolher e preparar alimentos de maneira consciente, promovendo mudanças duradouras no estilo de vida.",
+        "pros": [
+            "Mudança de hábitos alimentares a longo prazo",
+            "Aprendizado sobre escolhas alimentares saudáveis",
+            "Suporte e motivação contínuos",
+            "Melhoria na qualidade de vida e bem-estar"
+        ],
+        "slug": "reeducacao-alimentar",
+        "sections": [
+        {
+            "type": "title",
+            "title": "Programas de Reeducação Alimentar"
+        },
+        {
+            "type": "image",
+            "src": "img7.jpg",
+            "alt": "Reeducação Alimentar"
+        },
+        {
+            "type": "text",
+            "content": "Nossos programas de reeducação alimentar visam transformar seus hábitos alimentares de forma sustentável e saudável."
+        },
+        {
+            "type": "list",
+            "items": [
+                "Mudança de hábitos alimentares a longo prazo",
+                "Aprendizado sobre escolhas alimentares saudáveis",
+                "Suporte e motivação contínuos",
+                "Melhoria na qualidade de vida e bem-estar"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Ensinamos a escolher e preparar alimentos de maneira consciente, promovendo mudanças duradouras no estilo de vida."
+        },
+        {
+            "type": "title",
+            "title": "Metodologia dos Programas"
+        },
+        {
+            "type": "text",
+            "content": "Utilizamos uma abordagem prática e educativa, com sessões teóricas e práticas, para garantir que os participantes consigam implementar as mudanças no seu dia a dia."
+        },
+        {
+            "type": "image",
+            "src": "img21.jpg",
+            "alt": "Sessões Práticas"
+        }],
+        "faq": [
+        {
+            "question": "Quanto tempo dura o programa?",
+            "answer": "O programa de reeducação alimentar dura em média 3 meses, dependendo das necessidades individuais."
+        },
+        {
+            "question": "Qual é o formato das sessões?",
+            "answer": "As sessões são realizadas semanalmente, de forma presencial ou online, com duração de 1 hora."
+        }]
+    },
+    {
+        "image": "img11.jpg",
+        "landscapeImage": "img19.jpg",
+        "subtitle": "Consult",
+        "title": "Consultoria Nutricional Personalizada",
+        "description": "Na consultoria nutricional personalizada, oferecemos orientações detalhadas e específicas para suas necessidades e objetivos individuais. Avaliamos seu estado de saúde, hábitos alimentares e estilo de vida para criar um plano nutricional único.",
+        "pros": [
+            "Plano alimentar adaptado às suas necessidades",
+            "Avaliação completa de saúde e hábitos alimentares",
+            "Orientação contínua e personalizada",
+            "Suporte individualizado para alcançar seus objetivos"
+        ],
+        "slug": "consultoria-nutricional",
+        "sections": [
+        {
+            "type": "title",
+            "title": "Consultoria Nutricional Personalizada"
+        },
+        {
+            "type": "image",
+            "src": "img27.jpg",
+            "alt": "Consultoria Nutricional"
+        },
+        {
+            "type": "text",
+            "content": "Na consultoria nutricional personalizada, oferecemos orientações detalhadas e específicas para suas necessidades e objetivos individuais."
+        },
+        {
+            "type": "list",
+            "items": [
+                "Plano alimentar adaptado às suas necessidades",
+                "Avaliação completa de saúde e hábitos alimentares",
+                "Orientação contínua e personalizada",
+                "Suporte individualizado para alcançar seus objetivos"
+            ]
+        },
+        {
+            "type": "text",
+            "content": "Avaliamos seu estado de saúde, hábitos alimentares e estilo de vida para criar um plano nutricional único."
+        },
+        {
+            "type": "title",
+            "title": "Vantagens da Consultoria Personalizada"
+        },
+        {
+            "type": "text",
+            "content": "A consultoria personalizada permite uma abordagem mais detalhada e específica, garantindo que todas as suas necessidades sejam atendidas de forma eficiente."
+        },
+        {
+            "type": "image",
+            "src": "img18.jpg",
+            "alt": "Consultoria Personalizada"
+        }],
+        "faq": [
+        {
+            "question": "Como é realizada a avaliação inicial?",
+            "answer": "A avaliação inicial é feita através de uma consulta detalhada onde coletamos informações sobre sua saúde, hábitos alimentares e estilo de vida."
+        },
+        {
+            "question": "Qual é a duração do acompanhamento?",
+            "answer": "A duração do acompanhamento varia conforme as necessidades do cliente, mas geralmente é realizada ao longo de 6 meses."
+        }]
+    }],
+    "generalFaq": [
+        {
+            "question": "Quanto tempo dura cada consulta?",
+            "answer": "Cada consulta dura aproximadamente 60 minutos, tempo suficiente para fazermos uma avaliação detalhada e ajustarmos o plano conforme necessário."
+        },
+        {
+            "question": "Qual é a frequência do acompanhamento?",
+            "answer": "A frequência do acompanhamento pode variar conforme a necessidade individual de cada cliente, mas geralmente é realizada mensalmente."
+        }],
+    "contact": {
+        "subtitle": "Talk",
+        "title": "Entre em Contato",
+        "description": "Estamos aqui para ajudar! Preencha o formulário abaixo para enviar suas perguntas, comentários ou sugestões. Se preferir, você também pode nos contatar diretamente por e-mail ou telefone. Responderemos o mais breve possível."
+    },
+    "privacyPolicy": {
+        "title": "Política de Privacidade",
+        "sections": [
+            {
+                "heading": "1. Coleta de Informações",
+                "description": "Coletamos informações pessoais que você nos fornece voluntariamente ao preencher formulários de contato, como nome, e-mail e número de telefone. Também podemos coletar informações automaticamente por meio de cookies e tecnologias semelhantes."
+            },
+            {
+                "heading": "2. Uso das Informações",
+                "description": "Usamos suas informações pessoais para responder a suas perguntas, processar suas solicitações e melhorar nossos serviços. Não compartilhamos suas informações com terceiros, exceto conforme necessário para fornecer nossos serviços ou conforme exigido por lei."
+            },
+            {
+                "heading": "3. Proteção das Informações",
+                "description": "Implementamos medidas de segurança adequadas para proteger suas informações pessoais contra acesso não autorizado, alteração, divulgação ou destruição. No entanto, lembre-se de que nenhuma transmissão de dados pela internet ou sistema de armazenamento é totalmente segura."
+            },
+            {
+                "heading": "4. Seus Direitos",
+                "description": "Você tem o direito de acessar, corrigir ou excluir suas informações pessoais que temos em nosso sistema. Para exercer esses direitos, entre em contato conosco através dos meios fornecidos em nosso site."
+            },
+            {
+                "heading": "5. Alterações nesta Política",
+                "description": "Podemos atualizar esta Política de Privacidade de tempos em tempos. Quaisquer alterações serão publicadas nesta página, e a data da última atualização será revisada. Recomendamos que você revise esta política periodicamente para se manter informado sobre como protegemos suas informações."
+            },
+            {
+                "heading": "6. Contato",
+                "description": "Se você tiver dúvidas ou preocupações sobre esta Política de Privacidade, entre em contato conosco através do e-mail contato@exemplo.com ou pelo telefone (11) 1234-5678."
+            }
+        ]
+    },
+      "termsAndConditions": {
+        "title": "Termos e Condições",
+        "sections": [
+            {
+                "heading": "1. Aceitação dos Termos",
+                "description": "Ao acessar e usar este site, você concorda em cumprir e estar vinculado a estes Termos e Condições. Se você não concorda com qualquer parte dos termos, não deve usar nosso site."
+            },
+            {
+                "heading": "2. Modificações dos Termos",
+                "description": "Reservamo-nos o direito de alterar ou modificar estes Termos e Condições a qualquer momento. Quaisquer alterações entrarão em vigor imediatamente após a publicação no site. Recomendamos que você revise periodicamente os Termos e Condições para se manter informado sobre atualizações."
+            },
+            {
+                "heading": "3. Uso do Site",
+                "description": "Você concorda em usar o site apenas para fins legais e de uma maneira que não infrinja os direitos de terceiros ou restrinja ou iniba o uso e aproveitamento do site por qualquer terceiro. Comportamentos proibidos incluem assediar ou causar angústia ou inconveniência a qualquer pessoa, transmitir conteúdo obsceno ou ofensivo ou interromper o fluxo normal de diálogo no site."
+            },
+            {
+                "heading": "4. Propriedade Intelectual",
+                "description": "Todo o conteúdo, incluindo textos, gráficos, logotipos, ícones, imagens, clipes de áudio e software, é de propriedade nossa ou de nossos licenciadores e está protegido por leis de direitos autorais. Você não pode reproduzir, distribuir, modificar ou exibir publicamente qualquer conteúdo sem nossa autorização prévia por escrito."
+            },
+            {
+                "heading": "5. Limitação de Responsabilidade",
+                "description": "Não seremos responsáveis por quaisquer danos diretos, indiretos, incidentais, consequenciais ou punitivos decorrentes do uso ou da incapacidade de usar o site ou qualquer conteúdo nele contido. Isso inclui, sem limitação, danos por perda de lucros, uso, dados ou outras perdas intangíveis."
+            },
+            {
+                "heading": "6. Lei Aplicável",
+                "description": "Estes Termos e Condições serão regidos e interpretados de acordo com as leis do país em que nossa empresa está registrada, sem considerar os conflitos de disposições legais. Você concorda que qualquer ação legal ou disputa decorrente do uso do site será resolvida exclusivamente nos tribunais desse país."
+            },
+            {
+                "heading": "7. Contato",
+                "description": "Se você tiver alguma dúvida sobre estes Termos e Condições, entre em contato conosco pelo e-mail contato@exemplo.com ou pelo telefone (11) 1234-5678."
+            }
+        ]
+    },
+    "attributions": [
+         {
+            "text": "Apple Icon from someone at",
+            "link": "https://example.com"
+         }
     ],
-        "legalLinks": [
-        {
-            "name": "Termos e Condições",
-            "href": "/termos"
-        },
-        {
-            "name": "Política de Privacidade",
-            "href": "/privacidade"
-        },
-        {
-            "name": "Atribuições",
-            "href": "/atribuicoes"
-        }
-    ],
-    "copyright": {
+    "footerCTA":
+    {
+        "button": "Agende Sua Consulta",
+        "url": "/contato",
+        "title": "Entre em contato",
+        "description": "Pronto para transformar sua saúde através da nutrição? Entre em contato hoje e agende uma consulta. Juntos, podemos criar um plano personalizado que atenda às suas necessidades e objetivos. Estou aqui para ajudar você a alcançar o melhor de si!"
+    },
+    "footerAbout":
+    {
+        "title": "Sobre",
+        "description": "Somos uma equipe de nutricionistas dedicados a promover a saúde e o bem-estar através da nutrição."
+    },
+    "footerContact": [
+    {
+        "name": "Email",
+        "icon": "vector5.svg",
+        "href": "mailto:example@example.com"
+    },
+    {
+        "name": "Telefone",
+        "icon": "vector4.svg",
+        "href": "tel:+123456789"
+    },
+    {
+        "name": "Endereço",
+        "icon": "vector3.svg",
+        "href": "https://maps.google.com"
+    }],
+    "footerLegalLinks": [
+    {
+        "name": "Termos e Condições",
+        "href": "/termos-e-condicoes"
+    },
+    {
+        "name": "Política de Privacidade",
+        "href": "/politica-de-privacidade"
+    },
+    {
+        "name": "Atribuições"
+    }],
+    "footerCopyright":
+    {
         "text": "©RonaldoCoelhoNutri"
     }
 }

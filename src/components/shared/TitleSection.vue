@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col gap-[6px] border-solid border-b-[1px] border-misty-sky pb-[8px]">
+    <div :class="containerClass">
         <span :class="subtitleClass">{{ subtitle }}</span>
         <component :is="titleTag" :class="titleClass">{{ title }}</component>
     </div>
@@ -19,6 +19,14 @@ export default {
         styleVariant: {
             type: String,
             default: ''
+        },        
+        containerVariant: {
+            type: String,
+            default: ''
+        },
+        withoutSpanVariant: {
+            type: String,
+            default: ''
         }
     },
     computed: {
@@ -29,7 +37,10 @@ export default {
             return this.styleVariant === 'subtitleVariant' ? 'text-[20px] font-bold uppercase' : 'text-[24px] font-bold uppercase';
         },
         subtitleClass() {
-            return this.styleVariant === 'subtitleVariant' ? 'text-[16px] text-detail-color font-medium !font-accent uppercase' : 'text-[18px] text-detail-color font-medium !font-accent uppercase';
+            return this.withoutSpanVariant === 'withoutSpan' ? 'hidden' : this.styleVariant === 'subtitleVariant' ? 'text-[16px] text-detail-color font-medium !font-accent uppercase' : 'text-[18px] text-detail-color font-medium !font-accent uppercase';
+        },       
+        containerClass() {
+            return this.containerVariant === 'withoutBorder' ? 'flex flex-col gap-[6px]' : 'flex flex-col gap-[6px] border-solid border-b-[1px] border-misty-sky pb-[8px]';
         }
     }
 };

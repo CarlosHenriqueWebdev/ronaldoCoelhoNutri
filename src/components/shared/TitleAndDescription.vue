@@ -1,11 +1,9 @@
 <template>
     <div class="flex flex-col gap-[16px]">
         <div :class="detailClass" class="relative">
-            <TitleSection :subtitle="subtitleText" :title="titleText" />
+            <TitleSection :subtitle="subtitleText" :title="titleText" :withoutSpanVariant="withoutSpanVariant" :containerVariant="containerVariant" :styleVariant="styleVariant" />
         </div>
-        <div class="flex flex-col gap-[16px] text-[16px]">
-            <TextSection :description="descriptionText" />
-        </div>
+        <TextSection :description="descriptionText" />
     </div>
 </template>
 
@@ -32,8 +30,16 @@ export default {
             required: true
         },
         detailVariant: {
-            type: String,
-            default: 'detail1' // Default variant
+            type: String
+        },
+        withoutSpanVariant: {
+            type: String
+        },
+        containerVariant: {
+            type: String
+        },        
+        styleVariant: {
+            type: String
         }
     },
     computed: {

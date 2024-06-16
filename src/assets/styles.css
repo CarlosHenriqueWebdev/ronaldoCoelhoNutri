@@ -92,8 +92,25 @@
     background-size: cover !important;
 }
 
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
 p {
+    font-size: 16px;
     line-height: 1.6 !important;
+}
+
+span {
+  font-size: 16px;
 }
 
 html,
@@ -226,18 +243,47 @@ table {
 .detail1::after {
     background-image: url('./images/detail1.png');
     opacity: 0.1;
+    z-index: -1;
 }
 .detail2::after {
     background-image: url('./images/detail2.png');
     opacity: 0.1;
+    z-index: -1;
 }
 .detail3::after {
     background-image: url('./images/detail3.png');
     opacity: 0.1;
+    z-index: -1;
 }
 .detail4::after {
     background-image: url('./images/detail4.png');
     opacity: 0.1;
+    z-index: -1;
+}
+.detail5::after {
+    background-image: url('./images/detail5.png');
+    opacity: 0.1;
+    z-index: -1;
+}
+.detail6::after {
+    background-image: url('./images/detail6.png');
+    opacity: 0.1;
+    z-index: -1;
+}
+.detail7::after {
+    background-image: url('./images/detail7.png');
+    opacity: 0.1;
+    z-index: -1;
+}
+.detail8::after {
+    background-image: url('./images/detail8.png');
+    opacity: 0.1;
+    z-index: -1;
+}
+.detail9::after {
+    background-image: url('./images/detail9.png');
+    opacity: 0.1;
+    z-index: -1;
 }
 
 @media (min-width: 768px) {
@@ -246,10 +292,16 @@ table {
         width: calc(100% - 10px);
         height: calc(100% - 10px);
     }
+
+        .slate-container {
+        box-shadow: 10px 10px #262931;
+        width: calc(100% - 10px);
+        height: calc(100% - 10px);
+    }
 }
 
 .shadow-image {
-    box-shadow: 0px 6px 13px rgba(0, 0, 0, 0.33);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.33);
 }
 
 .swiper-pagination {

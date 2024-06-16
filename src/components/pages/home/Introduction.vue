@@ -1,8 +1,8 @@
 <template>
-    <div class="px-[24px] lg:px-[80px] flex flex-col gap-[32px] md:grid md:grid-cols-[1fr_2fr] xl:container xl:mx-auto">  
-        <div class="flex md:justify-end"> 
-            <div class="md:max-w-full shadow-container rounded-[4px]">
-                <img class="w-full h-full object-cover shadow-image rounded-[4px]" src="../../assets/images/img4.jpg" alt="Logo">
+    <div class="mx-auto max-w-[640px] md:max-w-full xl:max-w-[1280px] px-[24px] lg:px-[80px] flex flex-col gap-[32px] md:grid md:grid-cols-[1fr_2fr]">  
+        <div class="flex md:justify-end h-fit lg:h-full"> 
+            <div class="shadow-container rounded-[4px] h-fit lg:h-full">
+                <img class="lg:h-full w-full h-fit object-contain lg:object-cover shadow-image rounded-[4px]" :src="require(`src/assets/images/${text.image}`)" alt="Logo">
             </div>
         </div>
 
@@ -30,7 +30,7 @@ export default {
     },
     data() {
         return {
-            text: content.introductionSection
+            text: content.homeIntroduction
         };
     }
 };

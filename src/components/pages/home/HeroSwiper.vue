@@ -2,7 +2,8 @@
     <div class="lg:hidden">
         <div v-if="items.length > 0">
             <div :style="{ backgroundImage: `url(${require(`src/assets/images/${items[0].backgroundImage}`)})` }" class="py-[80px] bg-right">
-                <div class="p-[24px] lg:px-[80px] bg-white-75 text-forest-night uppercase flex flex-col gap-[24px] shadow-lg">
+                <div class="lg:px-[80px] bg-white-75 text-forest-night uppercase shadow-lg">             
+                <div class="mx-auto max-w-[640px] md:max-w-full xl:max-w-[1280px] flex flex-col gap-[24px] p-[24px]">
                     <div class="flex flex-col gap-[16px] font-extrabold">
                         <span class="text-[20px]">{{ items[0].subtitle }}</span>
                         <h1 class="text-[28px]">{{ items[0].title }}</h1>
@@ -11,6 +12,7 @@
 
                      <PrimaryButton :href="`${items[0].url}`">{{ items[0].button }}</PrimaryButton>
                 </div>
+                </div>
             </div>
         </div>
     </div>
@@ -18,7 +20,7 @@
         <swiper :loop="true" :autoplay="autoplay" :pagination="pagination">
             <swiper-slide v-for="(item, index) in items" :key="index">
                 <div :style="{ backgroundImage: `url(${require(`src/assets/images/${item.backgroundImage}`)})` }" class="py-[132px] bg-right h-full select-none cursor-grab active:cursor-grabbing">
-                    <div class="px-[80px] text-forest-night uppercase flex flex-col gap-[24px] xl:container xl:mx-auto">
+                    <div class="px-[80px] text-forest-night uppercase flex flex-col gap-[24px] mx-auto max-w-[640px] md:max-w-full xl:max-w-[1280px]">
                         <div class="flex flex-col gap-[16px] font-extrabold">
                             <span class="text-[20px]">{{ item.subtitle }}</span>
                             <h1 class="text-[28px]">{{ item.title }}</h1>
@@ -59,7 +61,7 @@ export default {
     },
     data() {
         return {
-            items: content.hero,
+            items: content.homeHero,
             autoplay: {
                 delay: 9000,
                 disableOnInteraction: true,

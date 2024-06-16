@@ -11,11 +11,11 @@
 </template>
 
 <script>
-import HeroSwiper from '../components/home/HeroSwiper.vue';
-import Introduction from '../components/home/Introduction.vue';
-import About from '../components/home/About.vue';
-import Testimonials from '../components/home/Testimonials.vue';
-import Services from '../components/home/Services.vue';
+import HeroSwiper from 'src/components/pages/home/HeroSwiper.vue';
+import Introduction from 'src/components/pages/home/Introduction.vue';
+import About from 'src/components/pages/home/About.vue';
+import Testimonials from 'src/components/pages/home/Testimonials.vue';
+import Services from 'src/components/pages/home/Services.vue';
 // Import other sections as needed
 // import AboutSection from '@/components/home/AboutSection.vue';
 // import VideosSection from '@/components/home/VideosSection.vue';
